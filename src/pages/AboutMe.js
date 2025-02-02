@@ -5,7 +5,7 @@ const AboutMe = () => {
     <section>
       <h2>About Me</h2>
       <img src="your-photo.jpg" alt="Timothy Lindsey" />
-      <p>Hi, I'm Timothy Lindsey, a passionate web developer...</p>
+      <p>Hi, I'm Timothy Lindsey, a passionate web developer skilled in React, JavaScript, and building engaging user interfaces. My goal is to create seamless and interactive web applications. Welcome to my portfolio!</p>
     </section>
   );
 };

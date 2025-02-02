@@ -1,3 +1,4 @@
+// src/pages/Contact.js
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -7,6 +8,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Form validation and submission logic here
+    const errors = {};
+    if (!formData.name) errors.name = "Name is required";
+    if (!formData.email || !/\S+@\S+\.\S+/.test(formData.email)) errors.email = "Valid email is required";
+    if (!formData.message) errors.message = "Message is required";
+    setFormErrors(errors);
   };
 
   const handleChange = (e) => {
@@ -15,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -47,7 +53,7 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             required
-          ></textarea>
+          />
           {formErrors.message && <p>{formErrors.message}</p>}
         </div>
         <button type="submit">Submit</button>

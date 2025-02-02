@@ -1,8 +1,9 @@
+// src/pages/Resume.js
 import React from 'react';
 
 const Resume = () => {
   return (
-    <section>
+    <section id="resume">
       <h2>Resume</h2>
       <a href="resume.pdf" download>Download Resume</a>
       <ul>
@@ -10,6 +11,7 @@ const Resume = () => {
         <li>React</li>
         <li>Node.js</li>
         <li>HTML & CSS</li>
+        {/* Add more skills */}
       </ul>
     </section>
   );
