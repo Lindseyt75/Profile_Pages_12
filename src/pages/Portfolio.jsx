@@ -7,16 +7,16 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="projects">
         <Project
-          title="Project 1"
-          image="project1.jpg"
-          deployedLink="https://project1.com"
-          githubLink="https://github.com/yourusername/project1"
+          title="Expense Tracker"
+          image="Expensetracker2.jpg"
+          deployedLink="https://gurprasad34.github.io/ExpenseTracker/"
+          githubLink="https://github.com/Gurprasad34/ExpenseTracker.git"
         />
         <Project
-          title="Project 2"
-          image="project2.jpg"
-          deployedLink="https://project2.com"
-          githubLink="https://github.com/yourusername/project2"
+          title="Weather Application"
+          image="Weatherapp2.jpg"
+          deployedLink="https://weather-service-1613.onrender.com"
+          githubLink="https://github.com/Lindseyt75/Module9_Weather.git"
         />
         {/* Add more projects as needed */}
       </div>
