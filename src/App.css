@@ -1,3 +1,49 @@
+/* For Navigation bar */
+.nav {
+  background-color: #6495ed;  /* Gainsboro */
+  padding: 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin: 0 1rem;
+}
+
+.nav-link {
+  font-size: 2.5rem;  /* Adjust this value to make the text larger */
+}
+
+.nav-link {
+  color: #000000;  /* Black text */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #61ee54;  /* Change color when hovered */
+}
+
+header {
+  background-color: lightgray;  /* Gainsboro */
+}
+.large-header {
+  font-size: 5rem;  /* Adjust the size here */
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(153, 162, 168);  /* Gainsboro */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +85,53 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* In App.css or Project.css */
+
+.project a {
+  display: inline-block;
+  margin: 0.5rem 1rem 0.5rem 0; /* Adds margin to the right of each link */
+  font-size: 1.1rem; /* Optional: Adjust font size */
+  color: blue;
+}
+
+.project a:hover {
+  color: #61ee54;  /* Optional: Change color on hover */
+}
+
+footer a {
+  font-size: 1.2rem; /* Optional: Customize font size */
+  color: blue; 
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+  color: #61ee54;  /* Change color when hovered */
+}
+
+/* Style for Resume link */
+.resume-link {
+  font-size: 1.5rem; /* Increase font size for the link */
+  font-weight: 500; /* Optional: Make text bold */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Hover effect for Resume link */
+.resume-link:hover {
+  color: #61ee54;  /* Change color to green when hovered */
+}
+
+/* Style for the list of skills */
+#resume ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem; /* Increase font size for the list items */
+}
+
+#resume li {
+  margin-bottom: 0.5rem; /* Space between list items */
 }

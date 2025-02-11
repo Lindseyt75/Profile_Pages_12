@@ -41,3 +41,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h2 {
+	font-size: 3rem;  /* Larger size */
+	font-weight: bold;
+	color: black;
+  }
+h3 {
+	font-size: 1rem;  /* Larger size */
+	font-weight: bold;
+	color: black;
+  }
