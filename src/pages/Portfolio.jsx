@@ -30,15 +30,14 @@ const Portfolio = () => {
           githubLink="https://github.com/Lindseyt75/Employee_Tracker_Module10.git"
         />
                 <Project
-          title="Project5"
-          image="Weatherapp2.jpg"
-          githubLink="https://github.com/Lindseyt75/Module9_Weather.git"
+          title="Vehicle Builder"
+          image="vehiclebuilder.jpg"
+          githubLink="https://github.com/Lindseyt75/Module8Vehicle.git"
         />
                 <Project
-          title="Project6"
-          image="Weatherapp2.jpg"
-          deployedLink="https://weather-service-1613.onrender.com"
-          githubLink="https://github.com/Lindseyt75/Module9_Weather.git"
+          title="CSS Portfolio"
+          image="portfoliocss.jpg"
+          githubLink="https://github.com/Lindseyt75/module2_challenge.git"
         />
         {/* Add more projects as needed */}
       </div>
